@@ -61,11 +61,13 @@ p {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 24px;
 }
 
 .hero-image img {
     border-radius: 8px;
+    width: 100%;
+    height: auto;
 }
 
 button {
