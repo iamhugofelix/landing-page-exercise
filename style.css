@@ -1,0 +1,79 @@
+/* General */
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+/* Header & Hero */
+
+.hero, .header {
+    padding: 8px 32px;
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.header-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    gap: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 80px 32px;
+}
+
+.hero-image,
+.hero-content {
+    color: #fff;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.hero-image img {
+    border-radius: 8px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
