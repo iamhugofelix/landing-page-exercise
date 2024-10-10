@@ -20,15 +20,16 @@ p {
 
 /* Header & Hero */
 
-.hero, .header {
-    padding: 8px 32px;
+.hero-wrapper {
     background-color: #1f2937;
+    padding: 8px 32px;
 }
 
-.header {
+.hero, .header {
     display: flex;
+    max-width: 1080px;
+    margin: 0 auto;
     justify-content: space-between;
-    align-items: center;
 }
 
 .logo {
@@ -49,19 +50,21 @@ p {
 
 .hero {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 64px;
-    padding: 80px 32px;
+    padding: 80px 0px;
 }
 
-.hero-image,
 .hero-content {
     color: #fff;
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+
+.hero-image {
+    flex: 1;
 }
 
 .hero-image img {
