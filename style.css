@@ -23,6 +23,11 @@ p {
     font-weight: 400;
 }
 
+a {
+    color: #3882f6;
+    font-weight: 700;
+}
+
 /* Header & Hero */
 
 .hero-wrapper {
@@ -128,4 +133,34 @@ button {
 .info-item p {
     text-align: center;
     width: 100%;
+}
+
+/** Quote Section */
+
+.quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 96px 32px;
+    gap: 32px;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    max-width: 1080px;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.quote-author {
+    display: flex;
+    width: 100%;
+    max-width: 1080px;
+    justify-content: flex-end;
+}
+
+.quote-author p {
+    font-size: 20px;
 }
