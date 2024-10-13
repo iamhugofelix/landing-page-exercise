@@ -96,7 +96,7 @@ button {
     align-items: center;
     max-width: 1080px;
     margin: 0 auto;
-    padding: 64px 0px;
+    padding: 64px 32px;
     gap: 32px;
     color: #1f2937;
 }
