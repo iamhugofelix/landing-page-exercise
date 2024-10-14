@@ -1,6 +1,7 @@
 /* General */
 * {
     font-family: "Roboto", sans-serif;
+    line-height: 1;
 }
 
 body {
@@ -10,22 +11,26 @@ body {
 h1 {
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
 }
 
 h2 {
     font-size: 36px;
     font-weight: 900;
+    margin: 0;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 900;
+    margin: 0;
 }
 
 p {
     font-size: 16px;
     line-height: 1.5;
-    font-weight: 400;
-}
-
-a {
-    color: #3882f6;
-    font-weight: 700;
+    font-weight: 300;
+    margin: 0;
 }
 
 /* Header & Hero */
@@ -68,11 +73,23 @@ a {
 }
 
 .hero-content {
-    color: #fff;
+    color: #f9faf8;
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero-text p {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .hero-image {
@@ -84,7 +101,7 @@ a {
     width: 100%;
 }
 
-button {
+.hero-buttons button {
     background-color: #3882f6;
     color: #fff;
     border-radius: 8px;
@@ -150,6 +167,7 @@ button {
 .quote-text {
     max-width: 1080px;
     font-size: 36px;
+    line-height: 1.5;
     font-weight: 100;
     color: #1f2937;
 }
@@ -163,4 +181,54 @@ button {
 
 .quote-author p {
     font-size: 20px;
+}
+
+/* CTA Section */
+
+.cta-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 32px;
+}
+
+.cta-content {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 1080px;
+    gap: 64px;
+    background-color: #3882f6;
+    color: #fff;
+    padding: 40px 80px;
+    border-radius: 12px;
+}
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+
+
+.cta-button button {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 8px;
+    border: solid 2px #fff;
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
+/** Footer **/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 32px 32px;
+    color: #fff;
+    font-weight: 200;
 }
